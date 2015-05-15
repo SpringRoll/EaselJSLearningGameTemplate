@@ -16,6 +16,10 @@
 		manifestsPath: 'assets/config/manifests.json',
 		captionsPath: 'assets/config/captions.json',
 		transition: new lib.Transition(),
+		transitionSounds: {
+			"in": "TransitionIn",
+			"out": "TransitionOut"
+		},
 		display: Display,
 		displayOptions:	{
 			clearView: true,

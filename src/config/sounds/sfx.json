@@ -1,7 +1,7 @@
 {
 	"context": "sfx",
 	"path": "assets/sound/sfx/",
-	"soundManifest": [
+	"sounds": [
 		"ButtonClick",
 		"ButtonRollover",
 		"TransitionIn",

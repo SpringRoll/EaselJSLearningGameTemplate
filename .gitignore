@@ -1,0 +1,10 @@
+node_modules/
+components/
+RECOVER_*.fla
+*.sublime-*
+RECOVER_*
+npm-debug.log
+deploy/assets/js
+deploy/assets/css
+deploy/assets/config/config.json
+deploy/assets/config/manifests.json

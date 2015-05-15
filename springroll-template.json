@@ -1,0 +1,21 @@
+{
+	"name": "EaselJS Learning Game",
+	"id": "io.springroll.easeljs-learning-game",
+	"version": "1.0.0",
+	"extend": "io.springroll.default",
+	"github": "SpringRoll/EaselJSLearningGameTemplate",
+	"required": [
+		"sound",
+		"states",
+		"captions",
+		"ui",
+		"tasks",
+		"learning",
+		"learning-media",
+		"easeljs-display",
+		"easeljs-states",
+		"easeljs-animation",
+		"easeljs-learning",
+		"container-client"
+	]
+}

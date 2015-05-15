@@ -1,0 +1,20 @@
+{
+	"name": "_className_",
+	"displayName": "_name_",
+	"version": "_version_",
+	"config": "src/config",
+	"assets": [
+		"assets/fla/js/*.js"
+	],
+	"main": [
+		"src/panels/*.js",
+		"src/states/*.js",
+		"src/*.js"
+	],
+	"libraries": [
+		"_libraries_"
+	],
+	"librariesDebug": [
+		"_librariesDebug_"
+	]
+}

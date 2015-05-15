@@ -1,0 +1,10 @@
+{
+	"private": true,
+	"version": "_version_",
+	"dependencies": {
+		"grunt": "~0.4.5",
+		"grunt-createjs-manifests": "*",
+		"grunt-springroll": "*",
+		"grunt-curl": "~2.0.3"
+	}
+}

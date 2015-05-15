@@ -1,0 +1,6 @@
+{
+	// A map of unique Learning event codes and the custom API name
+	// For instance, calling learning.humanReadable() would fire 
+	// event code 9000:
+    // "9000":"humanReadable"
+}

@@ -1,7 +1,7 @@
 {
 	"context": "music",
 	"path": "assets/sound/music/",
-	"soundManifest": [
+	"sounds": [
 		{
 			"id": "BackgroundMusic",
 			"preload": true

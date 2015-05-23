@@ -3,10 +3,7 @@ module.exports = {
 	{
 		output: "<%= configFolder %>/manifests.json",
 		files: "assets/fla/**/*.js",
-		remove: "../../../deploy/",
-		options: {
-			lowercase: true
-		}
+		remove: "../../../deploy/"
 	},
 	debug:
 	{
@@ -14,8 +11,7 @@ module.exports = {
 		files: "assets/fla/**/*.js",
 		remove: "../../../deploy/",
 		options: {
-			space: "	",
-			lowercase: true
+			space: "\t"
 		}
 	}
 };

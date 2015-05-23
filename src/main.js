@@ -38,10 +38,23 @@
 	// App has been initialized
 	app.on('init', function()
 	{
+		var assets = this.config.assets;
+		var fla = this.manifests;
+
 		// Set the states to use
 		this.states = {
-			title: new TitleState(),
-			game: new GameState()
+			title: new TitleState({
+				next: 'game',
+				manifest: assets.title
+			}),
+			game: new GameState({
+				next: 'title', 
+				previous: 'title',
+				manifest: [].concat(
+					assets.game
+					fla.Game
+				)
+			})
 		};
 	});
 

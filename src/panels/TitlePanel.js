@@ -34,9 +34,6 @@
 
         this.playButton = new SoundButton(images.PlayButton);
         this.playButton.name = 'PlayButton';
-        var data = this.game.config.sprites.playButton;
-        this.playButton.x = data.x;
-        this.playButton.y = data.y;
         this.addChild(this.playButton);
         DwellTimer.create(this.playButton);
     };

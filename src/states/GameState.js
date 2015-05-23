@@ -9,9 +9,9 @@
 	 * @class _namespace_.TitleState
 	 * @extends springroll.easeljs.BaseState
 	 */
-	var GameState = function()
+	var GameState = function(options)
 	{
-		BaseState.call(this, new GamePanel(), 'title', 'title');
+		BaseState.call(this, new GamePanel(), options);
 
 		// Bind the callback
 		this.onPlayHelp = this.onPlayHelp.bind(this);

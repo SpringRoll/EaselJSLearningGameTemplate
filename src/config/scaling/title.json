@@ -1,3 +1,5 @@
 {
-    "playButton": "top-left"
+    "playButton": "top-left",
+    "x": 100,
+    "y": 100
 }

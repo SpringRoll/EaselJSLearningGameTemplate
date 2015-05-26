@@ -39,13 +39,15 @@
 	app.on('init', function()
 	{
 		var assets = this.config.assets;
+		var scaling = this.config.scaling;
 		var fla = this.manifests;
 
 		// Set the states to use
 		this.states = {
 			title: new TitleState({
 				next: 'game',
-				manifest: assets.title
+				manifest: assets.title,
+				scaling: scaling.title
 			}),
 			game: new GameState({
 				next: 'title', 

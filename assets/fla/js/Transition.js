@@ -47,7 +47,7 @@ p.nominalBounds = new Rectangle(0,0,1024,768);
 (lib.Transition = function(mode,startPosition,loop) {
 	var instance_1;
 	var instance;
-if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{hidden:0,onTransitionOut:1,onTransitionOut_stop:30,onTransitionIn:50,onTransitionIn_stop:70});
+if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{hidden:0,onTransitionOut:1,onTransitionOut_stop:30,onTransitionIn:50,onTransitionIn_stop:79});
 
 	// mask
 	instance = this.instance = new lib.Transition_1("synched",0);

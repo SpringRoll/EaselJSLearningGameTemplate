@@ -1,5 +1,7 @@
 {
-    "playButton": "top-left",
-    "x": 100,
-    "y": 100
+	"playButton": {
+		"align": "top-left",
+		"x": 440,
+		"y": 500
+	}
 }

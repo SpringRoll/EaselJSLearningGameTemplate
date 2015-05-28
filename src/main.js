@@ -52,10 +52,7 @@
 			game: new GameState({
 				next: 'title', 
 				previous: 'title',
-				manifest: [].concat(
-					assets.game
-					fla.Game
-				)
+				manifest: fla.Game
 			})
 		};
 	});

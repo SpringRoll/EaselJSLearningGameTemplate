@@ -5,17 +5,21 @@
 		TitleState = include('_namespace_.TitleState'),
 		GameState = include('_namespace_.GameState'),
 		Application = include('springroll.Application'),
+		Transition = include('lib.Transition'),
 		Display = include('_displayClass_');
 
+	var transition = new Transition();
+	transition.framerate = 30;
+	
 	var app = new Application({
-		fps: 24,
+		fps: 60,
 		name: '_name_',
 		state: 'title',
 		canvasId: 'stage',
 		configPath: 'assets/config/config.json',
 		manifestsPath: 'assets/config/manifests.json',
 		captionsPath: 'assets/config/captions.json',
-		transition: new lib.Transition(),
+		transition: transition,
 		transitionSounds: {
 			"in": "TransitionIn",
 			"out": "TransitionOut"

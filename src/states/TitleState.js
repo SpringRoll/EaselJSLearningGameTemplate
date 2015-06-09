@@ -59,8 +59,6 @@
 		this.panel.background.cursor = null;
 		this.panel.background.removeEventListener("click", this.onPlay);
 		this.panel.playButton.removeEventListener("click", this.onPlay);
-
-		s.exit.call(this);
 	};
 
 	//Assign to namespace

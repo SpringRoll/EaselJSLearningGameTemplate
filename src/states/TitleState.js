@@ -46,7 +46,7 @@
 		{
 			this.game.music = 'BackgroundMusic';
 		}
-		this.manager.next();
+		this.nextState();
 	};
 
 	/**

@@ -3,5 +3,6 @@
 		"align": "top-left",
 		"x": 440,
 		"y": 500
-	}
+	},
+	"background": "cover-image"
 }

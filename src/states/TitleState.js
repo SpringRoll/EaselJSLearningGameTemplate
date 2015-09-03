@@ -44,7 +44,7 @@
 		//a courtesy to the developer
 		if (RELEASE)
 		{
-			this.game.music = 'BackgroundMusic';
+			this.app.music = 'BackgroundMusic';
 		}
 		this.nextState();
 	};

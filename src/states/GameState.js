@@ -30,7 +30,7 @@
 	p.enterDone = function()
 	{
 		// Handle when the help button is pressed
-		this.game.container.on('playHelp', this.onPlayHelp);
+		this.app.container.on('playHelp', this.onPlayHelp);
 	};
 
 	/**
@@ -42,7 +42,7 @@
 	p.onPlayHelp = function()
 	{
 		// Track any help parameters
-		// this.game.learning.clickHelp(
+		// this.app.learning.clickHelp(
 		//     game_specific_tracking_paramter_1,
 		//     game_specific_tracking_paramter_2
 		// );
@@ -54,7 +54,7 @@
 	 */
 	p.exitStart = function()
 	{
-		this.game.container.off('playHelp', this.onPlayHelp);
+		this.app.container.off('playHelp', this.onPlayHelp);
 	};
 
 	//Assign to namespace

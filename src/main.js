@@ -50,13 +50,14 @@
 		this.states = {
 			title: new TitleState({
 				next: 'game',
-				manifest: assets.title,
+				preload: assets.title,
 				scaling: scaling.title
 			}),
 			game: new GameState({
 				next: 'title', 
 				previous: 'title',
-				manifest: fla.Game
+				preload: fla.Game,
+				scaling: "panel"
 			})
 		};
 	});

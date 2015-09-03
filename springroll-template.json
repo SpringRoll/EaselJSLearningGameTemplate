@@ -1,7 +1,7 @@
 {
 	"name": "EaselJS Learning Game",
 	"id": "io.springroll.easeljs-learning-game",
-	"version": "1.0.6",
+	"version": "1.0.7",
 	"extend": "io.springroll.default",
 	"github": "SpringRoll/EaselJSLearningGameTemplate",
 	"required": [
@@ -9,7 +9,7 @@
 		"states",
 		"captions",
 		"ui",
-		"tasks",
+		"animation",
 		"learning",
 		"learning-media",
 		"easeljs-display",

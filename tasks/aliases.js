@@ -1,7 +1,7 @@
 module.exports = function(grunt)
 {
 	grunt.registerTask(
-		'_pre-build-debug',
+		'_pre-build',
 		'Default task to build all the project code', [
 			'curl:release',
 			'clean:manifests',
@@ -10,7 +10,7 @@ module.exports = function(grunt)
 	);
 	
 	grunt.registerTask(
-		'_pre-build',
+		'_pre-build-debug',
 		'Default task to build all the project code', [
 			'curl:debug',
 			'clean:manifests',

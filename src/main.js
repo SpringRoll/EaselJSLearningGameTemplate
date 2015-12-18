@@ -30,7 +30,7 @@
 		}
 	});
 
-	// Log out the qeury options
+	// Log out the query options
 	if (DEBUG && DebugOptions)
 	{
 		DebugOptions
